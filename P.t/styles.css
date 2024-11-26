@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    padding: 10px 35px;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(99, 14, 31);
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    border-bottom: 4px solid rgb(75, 3, 3);
+}
+
+.list > ul {
+    display: flex;
+    gap: 250px; 
+    justify-content: flex-start; 
+    align-items: center;
+    margin-top: 10px;
+}
+
+.list > ul > li {
+    list-style: none;
+}
+
+.list>ul>li:hover{
+    color: white;
+}
+
+.center{
+    background: rgb(7,7,8);
+    background: radial-gradient(circle, rgb(63, 27, 32) 0%, rgba(105,16,34,1) 100%);
+    height: 895px;
+}
+
+#pic {
+    width: 26%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top: 110px;
+    margin-left: 1150px;
+    box-shadow: 1px 1px 9px 9px black;
+    transition: transform 0.6s ease-in-out; 
+}   
+
+#pic:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+    box-shadow: 1px 1px 9px 9px rgb(240, 238, 238);
+}
+
+
+.center>h1{
+    color: rgb(2, 2, 2);
+    font-size: 150px;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: -550px;
+    margin-left: 130px;
+    transition: transform 0.8s ease;
+}
+
+.center>h1:hover{
+    color: aliceblue;
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.center>h2{
+    color: rgb(2, 2, 2);
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-top: -30px;
+    margin-left: 130px;
+    transition: transform 0.8s ease;
+}
+
+.center>h2:hover{
+    color: aliceblue;
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.mary{
+    border-bottom: 10px solid  rgb(75, 3, 3);
+    transition: transform 0.8s ease;
+
+}
+
+.mary:hover{
+    border-bottom: 10px solid  rgb(5, 5, 5);
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.center>p{
+    color: rgb(8, 8, 8);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-left: 130px;
+    transition: transform 0.8s ease;
+}
+
+.center>p:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%;
+    height: 100%px; */
+    margin-left: 310px;
+    margin-top: -150px;
+    padding: 0 240px;
+}
+
+.icon>ul{
+    display: flex;
+    gap: 140px;
+}
+
+.icon>ul>li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 5px ;
+}
